@@ -1,0 +1,20 @@
+var manusia = {
+  type: "mager",
+  gender: "male",
+  tinggi: "167",
+  berat: "42",
+  hobi: "tidur"
+}
+
+//console.log(manusia.type)
+//console.log(manusia.gender)
+//console.log(manusia.tinggi)
+//console.log(manusia.berat)
+//console.log(manusia.hobi)
+
+
+console.log(manusia['type'])
+console.log(manusia['gender'])
+console.log(manusia['tinggi'])
+console.log(manusia['berat'])
+console.log(manusia['hobi'])
